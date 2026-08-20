@@ -1,26 +1,29 @@
-Calculator App
+# Calculator App
 
-A responsive calculator web application for performing standard arithmetic calculations.
+A responsive calculator app with multiple color themes and standard math operations.
 
-Features
-Basic arithmetic operations (addition, subtraction, multiplication, division)
-Clear all (AC) functionality
-Delete last entry functionality
-Decimal number support
-Dynamic display updates
-Keyboard input support
-Responsive design
-Built With
-HTML
-CSS
-JavaScript
-What I Learned
-DOM manipulation
-Handling user interactions with JavaScript
-Handling keyboard events
-Managing calculator state
-Handling edge cases such as division by zero and consecutive operators
-Responsive layouts
-Live Demo
+## Features
 
-View Live Site: (https://akotridou.github.io/calculator/)
+- Basic mathematical operations (addition, subtraction, multiplication, division)
+- Multi-theme switcher with 3 custom color themes
+- Delete (DEL) and Reset functionality
+- Real-time calculation display
+- Responsive design
+
+## Built With
+
+- HTML
+- CSS (Grid & Flexbox)
+- JavaScript
+
+## What I Learned
+
+- DOM manipulation
+- Handling button click events
+- Implementing custom multi-theme switching
+- Math expression evaluation and error handling
+- Responsive grid layouts
+
+## Live Demo
+
+View Live Site: (https://akotridou.github.io/calculator-app/)
