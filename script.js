@@ -17,7 +17,7 @@ buttons.forEach((button) => button.addEventListener("click", () => {
       let expression = span.textContent.replaceAll("x", "*");
       if (expression !== "") {
         try {
-            span.textContent = Number(eval(expression).toFixed(10));
+            span.textContent = Number(Function(`'use strict'; return (${expression})`)().toFixed(10));
         } catch {
             span.textContent = "Error";
         }
@@ -59,6 +59,7 @@ toggle.addEventListener("click", () => {
     if (theme === 1) {
 
         circle.style.transform = "translateX(0)";
+        circle.style.backgroundColor = "hsl(6, 63%, 50%)";
 
         body.style.backgroundColor = "hsl(222, 26%, 31%)";
         display.style.backgroundColor = "hsl(224, 36%, 15%)";
@@ -89,6 +90,7 @@ toggle.addEventListener("click", () => {
     else if (theme === 2) {
 
         circle.style.transform = "translateX(20px)";
+        circle.style.backgroundColor = "hsl(25, 98%, 40%)";
 
         body.style.backgroundColor = "hsl(0, 0%, 90%)";
         display.style.backgroundColor = "hsl(0, 0%, 93%)";
