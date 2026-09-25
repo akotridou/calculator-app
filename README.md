@@ -2,6 +2,10 @@
 
 A responsive calculator app with multiple color themes and standard math operations.
 
+## Live Demo
+
+View Live Site: (https://akotridou.github.io/calculator-app/)
+
 ## Features
 
 - Basic mathematical operations (addition, subtraction, multiplication, division)
@@ -23,7 +27,3 @@ A responsive calculator app with multiple color themes and standard math operati
 - Implementing custom multi-theme switching
 - Math expression evaluation and error handling
 - Responsive grid layouts
-
-## Live Demo
-
-View Live Site: (https://akotridou.github.io/calculator-app/)
